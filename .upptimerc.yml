@@ -5,15 +5,17 @@ repo: Statuts-de-mes-outils
 sites:
   - name: Wrike
     url: https://www.wrike.com/
+    group : Outils
   - name: Lomaco Online - Régulation
     url: https://keolis.mycaelis.fr/regulation/
+    group : Application Métier
   - name: Lomaco Online - Gestion du Temps
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
-  - name: KS SLV - Clisson
-    url: 185.15.26.36
-    check: "tcp-ping"
-    port: 443
+    group : Application Métier
+  - name: Kopilot
+    url: https://prod.kopilot.apps.localsolver.com/login
+    group : Application Métier
 
 status-website:
   # 1. LE DESIGN GLOBAL

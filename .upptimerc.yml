@@ -1,6 +1,6 @@
 # Change these first
-owner: DimGTHUB # Your GitHub organization or username, where this repository lives
-repo: statut-de-mes-outils # The name of this repository
+owner: DimGTHUB
+repo: Statuts-de-mes-outils
 
 sites:
   - name: Wrike
@@ -13,12 +13,14 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
-  baseUrl: /statut-de-mes-outils
+  # cname: demo.upptime.js.org
+  baseUrl: /Statuts-de-mes-outils
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: Voici l'état de fonctionnement de nos applications en temps réel.
+  
+  navbar:
     - title: Status
       href: /
     - title: GitHub

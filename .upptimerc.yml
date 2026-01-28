@@ -9,6 +9,7 @@ sites:
     url: https://keolis.mycaelis.fr/regulation/
   - name: Lomaco Online - Gestion du Temps
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
+    expectedStatusCodes: [200, 201, 404]
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain

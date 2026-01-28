@@ -16,6 +16,9 @@ sites:
   - name: Kopilot
     url: https://prod.kopilot.apps.localsolver.com/login
     group: Application Métier
+  - name: Test
+    url: https://sitenexistepas.com
+    group: Application Métier
 
 status-website:
   # 1. LE DESIGN GLOBAL

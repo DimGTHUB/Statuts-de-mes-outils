@@ -19,7 +19,7 @@ status-website:
   # 2. VOTRE LOGO
   # Remplacez le lien ci-dessous par celui de VOTRE logo (copié depuis votre site)
   # Si vous n'en avez pas, laissez la ligne vide ou mettez un # devant
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://github.com/DimGTHUB/Statuts-de-mes-outils/blob/fb28fadce07334a750d1088101403581dba9fb13/Keolis_Sante-removebg-preview.png
 
   # 3. VOS TEXTES (C'est ici qu'on enlève le blabla en anglais)
   name: Météo des services

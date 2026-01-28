@@ -13,7 +13,7 @@ sites:
   - name: KS SLV - Clisson
     url: 185.15.26.36
     check: "tcp-ping"
-    port: 80
+    port: 443
 
 status-website:
   # 1. LE DESIGN GLOBAL

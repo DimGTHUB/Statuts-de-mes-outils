@@ -1,4 +1,4 @@
-# Change these first
+# Configuration de base
 owner: DimGTHUB
 repo: Statuts-de-mes-outils
 
@@ -12,20 +12,24 @@ sites:
     expectedStatusCodes: [200, 201, 404]
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  baseUrl: /Statuts-de-mes-outils
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: Voici l'état de fonctionnement de nos applications en temps réel.
+  # 1. LE DESIGN GLOBAL
+  # Mettez 'light' pour fond blanc ou 'dark' pour fond noir
+  theme: light 
   
+  # 2. VOTRE LOGO
+  # Remplacez le lien ci-dessous par celui de VOTRE logo (copié depuis votre site)
+  # Si vous n'en avez pas, laissez la ligne vide ou mettez un # devant
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+
+  # 3. VOS TEXTES (C'est ici qu'on enlève le blabla en anglais)
+  name: Météo des services
+  introTitle: "**État de fonctionnement**"
+  introMessage: "Bienvenue sur la page de statut de nos outils. Vous trouverez ici l'état de nos services en temps réel."
+  
+  # Configuration technique du site (ne pas toucher)
+  baseUrl: /Statuts-de-mes-outils
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration

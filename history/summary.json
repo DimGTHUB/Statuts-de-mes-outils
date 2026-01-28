@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 207,
-    "timeDay": 207,
-    "timeWeek": 207,
-    "timeMonth": 207,
-    "timeYear": 207,
+    "time": 216,
+    "timeDay": 216,
+    "timeWeek": 216,
+    "timeMonth": 216,
+    "timeYear": 216,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 800,
-    "timeDay": 800,
-    "timeWeek": 800,
-    "timeMonth": 800,
-    "timeYear": 800,
+    "time": 807,
+    "timeDay": 807,
+    "timeWeek": 807,
+    "timeMonth": 807,
+    "timeYear": 807,
     "dailyMinutesDown": {}
   },
   {
@@ -41,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/keolisgdt.mycaelis.fr.ico",
     "slug": "lomaco-online-gestion-du-temps",
     "status": "up",
-    "uptime": "87.00%",
-    "uptimeDay": "87.00%",
-    "uptimeWeek": "87.00%",
-    "uptimeMonth": "87.00%",
-    "uptimeYear": "87.00%",
-    "time": 892,
-    "timeDay": 892,
-    "timeWeek": 892,
-    "timeMonth": 892,
-    "timeYear": 892,
-    "dailyMinutesDown": {
-      "2026-01-28": 42
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 868,
+    "timeDay": 868,
+    "timeWeek": 868,
+    "timeMonth": 868,
+    "timeYear": 868,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Kopilot",
@@ -66,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 718,
-    "timeDay": 718,
-    "timeWeek": 718,
-    "timeMonth": 718,
-    "timeYear": 718,
+    "time": 787,
+    "timeDay": 787,
+    "timeWeek": 787,
+    "timeMonth": 787,
+    "timeYear": 787,
     "dailyMinutesDown": {}
   }
 ]

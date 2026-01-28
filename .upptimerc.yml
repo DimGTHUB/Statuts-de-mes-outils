@@ -5,17 +5,17 @@ repo: Statuts-de-mes-outils
 sites:
   - name: Wrike
     url: https://www.wrike.com/
-    group : Outils
+    group: Outils
   - name: Lomaco Online - Régulation
     url: https://keolis.mycaelis.fr/regulation/
-    group : Application Métier
+    group: Application Métier
   - name: Lomaco Online - Gestion du Temps
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
-    group : Application Métier
+    group: Application Métier
   - name: Kopilot
     url: https://prod.kopilot.apps.localsolver.com/login
-    group : Application Métier
+    group: Application Métier
 
 status-website:
   # 1. LE DESIGN GLOBAL
@@ -25,7 +25,7 @@ status-website:
   # 2. VOTRE LOGO
   # Remplacez le lien ci-dessous par celui de VOTRE logo (copié depuis votre site)
   # Si vous n'en avez pas, laissez la ligne vide ou mettez un # devant
-  logoUrl: https://github.com/DimGTHUB/Statuts-de-mes-outils/blob/fb28fadce07334a750d1088101403581dba9fb13/Keolis_Sante-removebg-preview.png
+  logoUrl: https://raw.githubusercontent.com/DimGTHUB/Statuts-de-mes-outils/main/Keolis_Sante-removebg-preview.png
 
   # 3. VOS TEXTES (C'est ici qu'on enlève le blabla en anglais)
   name: Météo des services

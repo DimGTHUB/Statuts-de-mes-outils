@@ -20,7 +20,7 @@ sites:
 status-website:
   # 1. LE DESIGN GLOBAL
   # Mettez 'light' pour fond blanc ou 'dark' pour fond noir
-  theme: light 
+  theme: dark 
   
   # 2. VOTRE LOGO
   # Remplacez le lien ci-dessous par celui de VOTRE logo (copié depuis votre site)

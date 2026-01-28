@@ -1,32 +1,24 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: DimGTHUB # Your GitHub organization or username, where this repository lives
+repo: statut-de-mes-outils # The name of this repository
 
 sites:
   - name: Wrike
-    url: https://www.wrike.com/workspace.htm?acc=1334179&wr=5#/dashboard-app/13684835?spaceId=791647350&sectionId=0
+    url: https://www.wrike.com/
   - name: Lomaco Online - Régulation
-    url: https://keolis.mycaelis.fr/regulation/?lhat=JSF01_537CAEB4BA86AF9258A4FB61D624157Cc9e551de-7c05-4ab9-b6a8-f5122dbe94ae#/?_k=gsogvu
+    url: https://keolis.mycaelis.fr/regulation/
   - name: Lomaco Online - Gestion du Temps
-    url: https://keolisgdt.mycaelis.fr/gestiondutemps/index.xhtml?lhat=JSF01_537CAEB4BA86AF9258A4FB61D624157C13c026a0-7512-48e0-89c3-1deedb9afc58
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+    url: https://keolisgdt.mycaelis.fr/gestiondutemps/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  #cname: demo.upptime.js.org
+  baseUrl: /statut-de-mes-outils
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
+  introMessage: Voici l'état de fonctionnement de nos applications en temps réel.
     - title: Status
       href: /
     - title: GitHub

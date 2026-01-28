@@ -10,6 +10,10 @@ sites:
   - name: Lomaco Online - Gestion du Temps
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
+  - name: KS SLV - Clisson
+    url: 185.15.26.36
+    check: "tcp-ping"
+    port: 80
 
 status-website:
   # 1. LE DESIGN GLOBAL

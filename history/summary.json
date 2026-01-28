@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 224,
-    "timeDay": 224,
-    "timeWeek": 224,
-    "timeMonth": 224,
-    "timeYear": 224,
+    "time": 203,
+    "timeDay": 203,
+    "timeWeek": 203,
+    "timeMonth": 203,
+    "timeYear": 203,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 798,
-    "timeDay": 798,
-    "timeWeek": 798,
-    "timeMonth": 798,
-    "timeYear": 798,
+    "time": 828,
+    "timeDay": 828,
+    "timeWeek": 828,
+    "timeMonth": 828,
+    "timeYear": 828,
     "dailyMinutesDown": {}
   },
   {
@@ -41,18 +41,38 @@
     "icon": "https://icons.duckduckgo.com/ip3/keolisgdt.mycaelis.fr.ico",
     "slug": "lomaco-online-gestion-du-temps",
     "status": "up",
-    "uptime": "40.24%",
-    "uptimeDay": "40.24%",
-    "uptimeWeek": "40.24%",
-    "uptimeMonth": "40.24%",
-    "uptimeYear": "40.24%",
-    "time": 1109,
-    "timeDay": 1109,
-    "timeWeek": 1109,
-    "timeMonth": 1109,
-    "timeYear": 1109,
+    "uptime": "42.49%",
+    "uptimeDay": "42.49%",
+    "uptimeWeek": "42.49%",
+    "uptimeMonth": "42.49%",
+    "uptimeYear": "42.49%",
+    "time": 1060,
+    "timeDay": 1060,
+    "timeWeek": 1060,
+    "timeMonth": 1060,
+    "timeYear": 1060,
     "dailyMinutesDown": {
       "2026-01-28": 42
+    }
+  },
+  {
+    "name": "KS SLV - Clisson",
+    "url": "185.15.26.36",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "ks-slv-clisson",
+    "status": "down",
+    "uptime": "93.76%",
+    "uptimeDay": "93.76%",
+    "uptimeWeek": "93.76%",
+    "uptimeMonth": "93.76%",
+    "uptimeYear": "93.76%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-01-28": 0
     }
   }
 ]

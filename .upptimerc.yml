@@ -3,11 +3,9 @@ owner: DimGTHUB
 repo: Statuts-de-mes-outils
 
 sites:
-  # --- GROUPE OUTILS ---
   - name: "📂 Outils : Wrike"
     url: https://www.wrike.com/
 
-  # --- GROUPE MÉTIER ---
   - name: "🏭 Métier : Lomaco Régulation"
     url: https://keolis.mycaelis.fr/regulation/
 
@@ -18,17 +16,12 @@ sites:
   - name: "🏭 Métier : Kopilot"
     url: https://prod.kopilot.apps.localsolver.com/login
 
-    # --- GROUPE MÉTIER ---
-  - name: "🌐 Passerelles : SPS"
-    url: https://www.sirusps.fr/Transporteur-Beta-1?redirection=1&group=TR-00002
-    
 status-website:
   theme: dark
   logoUrl: https://raw.githubusercontent.com/DimGTHUB/Statuts-de-mes-outils/master/Keolis_Sante-removebg-preview.png
   name: Météo des services
   introTitle: "**État de fonctionnement**"
   introMessage: "Bienvenue sur la page de statut de nos outils. Vous trouverez ici l'état de nos services en temps réel."
-  
   baseUrl: /Statuts-de-mes-outils
   navbar:
     - title: Status
@@ -36,21 +29,19 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-  # ... (laissez tout votre code du haut tel quel)
-
-# Collez ceci à la fin du fichier (attention à l'alignement tout à gauche)
-  i18n:
-    activeIncidents: "Incidents en cours"
-    allSystemsOperational: "Tous les systèmes sont opérationnels"
-    incidentReport: "Rapport d'incident"
-    latestIncidents: "Derniers incidents"
-    notice: "Note de maintenance"
-    overallUptime: "Disponibilité globale"
-    averageResponseTime: "Temps de réponse moyen"
-    se: "s" # Pour les secondes
-    ms: "ms" # Pour les millisecondes
-    url: "Lien vers le site"
-    status: "État"
-    history: "Historique"
-    uptime: "Disponibilité"
-    responseTime: "Réponse"
+# TRADUCTION FRANÇAISE (Doit être tout à gauche, sans espaces devant)
+i18n:
+  activeIncidents: "Incidents en cours"
+  allSystemsOperational: "Tous les systèmes sont opérationnels"
+  incidentReport: "Rapport d'incident"
+  latestIncidents: "Derniers incidents"
+  notice: "Note de maintenance"
+  overallUptime: "Disponibilité globale"
+  averageResponseTime: "Temps de réponse moyen"
+  se: "s"
+  ms: "ms"
+  url: "Lien"
+  status: "État"
+  history: "Historique"
+  uptime: "Disponibilité"
+  responseTime: "Réponse"

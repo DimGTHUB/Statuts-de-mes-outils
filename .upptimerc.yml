@@ -3,22 +3,20 @@ owner: DimGTHUB
 repo: Statuts-de-mes-outils
 
 sites:
-  - name: Wrike
+  # --- GROUPE OUTILS ---
+  - name: "📂 Outils : Wrike"
     url: https://www.wrike.com/
-    group: Outils
 
-  - name: Lomaco Online - Regulation
+  # --- GROUPE MÉTIER ---
+  - name: "🏭 Métier : Lomaco Régulation"
     url: https://keolis.mycaelis.fr/regulation/
-    group: Metier
 
-  - name: Lomaco Online - Gestion du Temps
+  - name: "🏭 Métier : Lomaco Gestion Temps"
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
-    group: Metier
 
-  - name: Kopilot
+  - name: "🏭 Métier : Kopilot"
     url: https://prod.kopilot.apps.localsolver.com/login
-    group: Metier
 
 status-website:
   theme: dark

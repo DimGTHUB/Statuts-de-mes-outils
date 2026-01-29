@@ -1,6 +1,40 @@
-# Collez ceci tout en bas du fichier, aligné tout à gauche
+# 1. IDENTITÉ DU PROJET
+owner: DimGTHUB
+repo: Statuts-de-mes-outils
+
+# 2. VOS SITES (Avec les nouveaux noms)
+sites:
+  - name: "📂 Outils : Wrike"
+    url: https://www.wrike.com/
+
+  - name: "🏭 Métier : Lomaco Régulation"
+    url: https://keolis.mycaelis.fr/regulation/
+
+  - name: "🏭 Métier : Lomaco Gestion Temps"
+    url: https://keolisgdt.mycaelis.fr/gestiondutemps/
+    expectedStatusCodes: [200, 201, 404]
+
+  - name: "🏭 Métier : Kopilot"
+    url: https://prod.kopilot.apps.localsolver.com/login
+
+# 3. CONFIGURATION DU SITE WEB
+status-website:
+  theme: dark
+  logoUrl: https://raw.githubusercontent.com/DimGTHUB/Statuts-de-mes-outils/master/Keolis_Sante-removebg-preview.png
+  name: Météo des services
+  introTitle: "**État de fonctionnement**"
+  introMessage: "Bienvenue sur la page de statut de nos outils."
+  baseUrl: /Statuts-de-mes-outils
+  
+  # C'est cette partie "navbar" qui manquait probablement et faisait planter le robot :
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# 4. TRADUCTION (Aligné tout à gauche)
 i18n:
-  # --- Les textes principaux (qui marchent déjà) ---
   activeIncidents: "Incidents en cours"
   allSystemsOperational: "Tous les systèmes sont opérationnels"
   incidentReport: "Rapport d'incident"
@@ -13,55 +47,16 @@ i18n:
   history: "Historique"
   uptime: "Disponibilité"
   responseTime: "Réponse"
-  
-  # --- LE BAZOOKA DES UNITÉS DE TEMPS ---
-  # On met toutes les variantes possibles pour tuer le "undefined"
-  
-  # Variantes courtes
+  # Unités de temps
   ms: "ms"
-  s: "s"
-  m: "min"
-  h: "h"
-  d: "j"
-  
-  # Variantes longues singulier
-  second: "s"
-  minute: "min"
-  hour: "h"
-  day: "j"
-  week: "sem"
-  month: "mois"
-  year: "an"
-  
-  # Variantes longues pluriel
   seconds: "s"
   minutes: "min"
   hours: "h"
   days: "j"
   weeks: "sem"
-  months: "mois"
+  months: "mo"
   years: "ans"
-
-  # Variantes techniques "timeX"
-  timeMs: "ms"
-  timeSecond: "s"
-  timeSeconds: "s"
-  timeMinute: "min"
-  timeMinutes: "min"
-  timeHour: "h"
-  timeHours: "h"
-  timeDay: "j"
-  timeDays: "j"
-  timeWeek: "sem"
-  timeWeeks: "sem"
-  timeMonth: "mois"
-  timeMonths: "mois"
-  timeYear: "an"
-  timeYears: "ans"
-  
-  # Variantes "durationX" (parfois utilisées)
-  durationMs: "ms"
-  durationSecond: "s"
-  durationSeconds: "s"
-  durationMinute: "min"
-  durationMinutes: "min"
+  second: "s"
+  minute: "min"
+  hour: "h"
+  day: "j"

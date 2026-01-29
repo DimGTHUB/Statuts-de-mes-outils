@@ -76,18 +76,20 @@
     "url": "https://www.sirusps.fr/Transporteur-Beta-1?redirection=1&group=TR-00002",
     "icon": "https://icons.duckduckgo.com/ip3/www.sirusps.fr.ico",
     "slug": "passerelles-sps",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 850,
-    "timeDay": 850,
-    "timeWeek": 850,
-    "timeMonth": 850,
-    "timeYear": 850,
-    "dailyMinutesDown": {}
+    "status": "degraded",
+    "uptime": "99.49%",
+    "uptimeDay": "99.49%",
+    "uptimeWeek": "99.49%",
+    "uptimeMonth": "99.49%",
+    "uptimeYear": "99.49%",
+    "time": 909,
+    "timeDay": 909,
+    "timeWeek": 909,
+    "timeMonth": 909,
+    "timeYear": 909,
+    "dailyMinutesDown": {
+      "2026-01-29": 0
+    }
   },
   {
     "name": "🌐 Passerelles : Speedcall",

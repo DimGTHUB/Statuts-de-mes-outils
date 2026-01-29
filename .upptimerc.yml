@@ -1,4 +1,4 @@
-# Configuration de base
+# Configuration
 owner: DimGTHUB
 repo: Statuts-de-mes-outils
 
@@ -29,7 +29,6 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# TRADUCTION FRANÇAISE (Doit être tout à gauche, sans espaces devant)
 i18n:
   activeIncidents: "Incidents en cours"
   allSystemsOperational: "Tous les systèmes sont opérationnels"
@@ -38,10 +37,29 @@ i18n:
   notice: "Note de maintenance"
   overallUptime: "Disponibilité globale"
   averageResponseTime: "Temps de réponse moyen"
-  se: "s"
-  ms: "ms"
   url: "Lien"
   status: "État"
   history: "Historique"
   uptime: "Disponibilité"
   responseTime: "Réponse"
+  ms: "ms"
+  second: "seconde"
+  seconds: "s"
+  minute: "minute"
+  minutes: "min"
+  hour: "heure"
+  hours: "h"
+  day: "jour"
+  days: "j"
+  week: "semaine"
+  weeks: "sem"
+  month: "mois"
+  months: "mo"
+  year: "an"
+  years: "ans"
+  
+  # Variantes
+  timeSeconds: "s"
+  timeMinutes: "min"
+  timeHours: "h"
+  timeDays: "j"

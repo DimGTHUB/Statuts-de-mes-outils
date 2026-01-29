@@ -1,23 +1,24 @@
-# 1. IDENTITÉ DU PROJET
 owner: DimGTHUB
 repo: Statuts-de-mes-outils
 
-# 2. VOS SITES (Avec les nouveaux noms)
 sites:
   - name: "📂 Outils : Wrike"
     url: https://www.wrike.com/
-
+    #---------------------------
   - name: "🏭 Métier : Lomaco Régulation"
     url: https://keolis.mycaelis.fr/regulation/
-
   - name: "🏭 Métier : Lomaco Gestion Temps"
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
-
   - name: "🏭 Métier : Kopilot"
     url: https://prod.kopilot.apps.localsolver.com/login
+    #-----------------------------
+  - name: "🌐 Passerelles : SPS"
+    url: https://www.sirusps.fr/Transporteur-Beta-1?redirection=1&group=TR-00002
+  - name: "🌐 Passerelles : Speedcall"
+    url: https://speedcall.itineraire.app/login
+    
 
-# 3. CONFIGURATION DU SITE WEB
 status-website:
   theme: dark
   logoUrl: https://raw.githubusercontent.com/DimGTHUB/Statuts-de-mes-outils/master/Keolis_Sante-removebg-preview.png
@@ -26,7 +27,6 @@ status-website:
   introMessage: "Bienvenue sur la page de statut de nos outils."
   baseUrl: /Statuts-de-mes-outils
   
-  # C'est cette partie "navbar" qui manquait probablement et faisait planter le robot :
   navbar:
     - title: Status
       href: /

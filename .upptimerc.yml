@@ -1,3 +1,4 @@
+# Configuration de base
 owner: DimGTHUB
 repo: Statuts-de-mes-outils
 
@@ -6,24 +7,22 @@ sites:
     url: https://www.wrike.com/
     group: Outils
 
-  - name: Lomaco Online - Régulation
+  - name: Lomaco Online - Regulation
     url: https://keolis.mycaelis.fr/regulation/
-    group: Application Métier
+    group: Metier
 
   - name: Lomaco Online - Gestion du Temps
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
-    group: Application Métier
+    group: Metier
 
   - name: Kopilot
     url: https://prod.kopilot.apps.localsolver.com/login
-    group: Application Métier
+    group: Metier
 
 status-website:
   theme: dark
-  
   logoUrl: https://raw.githubusercontent.com/DimGTHUB/Statuts-de-mes-outils/master/Keolis_Sante-removebg-preview.png
-
   name: Météo des services
   introTitle: "**État de fonctionnement**"
   introMessage: "Bienvenue sur la page de statut de nos outils. Vous trouverez ici l'état de nos services en temps réel."

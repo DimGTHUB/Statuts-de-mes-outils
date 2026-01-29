@@ -23,8 +23,8 @@ sites:
   - name: "🌐 Passerelles : Speedcall"
     url: https://speedcall.itineraire.app/login
     maxResponseTime: 1000
-  - name: "☎️ Téléphonie : Kiamo"
-    url: https://kiamo.ambu.lan/kiamo/login
+  - name: "☎️ Prise d'appel : Komand"
+    url: https://crc.keolis-sante.fr/
     maxResponseTime: 1000   
     
 

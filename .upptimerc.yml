@@ -4,19 +4,25 @@ repo: Statuts-de-mes-outils
 sites:
   - name: "📂 Outils : Wrike"
     url: https://www.wrike.com/
+    maxResponseTime: 1000
     #---------------------------
   - name: "🏭 Métier : Lomaco Régulation"
     url: https://keolis.mycaelis.fr/regulation/
+    maxResponseTime: 3000
   - name: "🏭 Métier : Lomaco Gestion Temps"
     url: https://keolisgdt.mycaelis.fr/gestiondutemps/
     expectedStatusCodes: [200, 201, 404]
+    maxResponseTime: 3000
   - name: "🏭 Métier : Kopilot"
     url: https://prod.kopilot.apps.localsolver.com/login
+    maxResponseTime: 1000
     #-----------------------------
   - name: "🌐 Passerelles : SPS"
     url: https://www.sirusps.fr/Transporteur-Beta-1?redirection=1&group=TR-00002
+    maxResponseTime: 1000
   - name: "🌐 Passerelles : Speedcall"
     url: https://speedcall.itineraire.app/login
+    maxResponseTime: 1000
     
 
 status-website:

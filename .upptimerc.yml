@@ -28,6 +28,11 @@ sites:
     maxResponseTime: 1000   
     
 
+workflowSchedule:
+  uptime: "*/5 * * * *"   # Vérifie l'état toutes les 5 min (Maximum possible)
+  graphs: "*/30 * * * *"  # Met à jour les courbes toutes les 30 min
+
+
 status-website:
   theme: dark
   logoUrl: https://raw.githubusercontent.com/DimGTHUB/Statuts-de-mes-outils/master/Keolis_Sante-removebg-preview.png
